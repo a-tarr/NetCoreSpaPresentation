@@ -12,7 +12,7 @@ export const Slide0 = (
     <Heading size={4} margin="0 0 1em 0">.NET Core 2.0 and Single Page Applications</Heading>
     <Layout>
       <Fill>
-        <Text>Follow along at: TODO: insert url</Text>
+        <Text>Follow along at: http://bit.ly/netcore2spa</Text>
       </Fill>
     </Layout>
   </Slide>
