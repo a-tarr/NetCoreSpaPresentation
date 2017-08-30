@@ -39,7 +39,7 @@ export default {
   fonts: fonts,
   global: {
     body: {
-      background: colors.secondary,
+      background: "#e6e8f3",
       fontFamily: fonts.body,
       fontWeight: "normal",
       fontSize: "2em",

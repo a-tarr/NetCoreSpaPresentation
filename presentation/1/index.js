@@ -16,23 +16,11 @@ import {
   Text
 } from "spectacle";
 
-export const WifiSlide = (
-  <Slide bgColor="white">
-    <Heading size={3}>WiFi</Heading>
-    <Layout>
-      <Fill>
-        <Text textFont="monospace">Network</Text>
-        <Text>Foundry</Text>
-      </Fill>
-      <Fill>
-        <Text textFont="monospace">Password</Text>
-        <Text>foundry98103</Text>
-      </Fill>
-    </Layout>
-    <Text style={{ marginBottom: 0 }}>
-      <Link href="https://twitter.com/seattlejs">
-        @SeattleJS
-      </Link>
-    </Text>
-  </Slide>
-);
+export const Agenda = 
+  <Slide>
+    <Heading size={4} margin="0 0 10px 0">Setup and templates</Heading>
+    <Heading size={4} margin="0 0 10px 0">Hot module reloading</Heading>
+    <Heading size={4} margin="0 0 10px 0">Debugging</Heading>
+    <Heading size={4} margin="0 0 10px 0">Server-side rendering</Heading>
+    <Heading size={4} margin="0 0 10px 0">NodeServices</Heading>
+  </Slide>;

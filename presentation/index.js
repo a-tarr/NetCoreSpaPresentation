@@ -21,7 +21,8 @@ import {
 
 // Slides
 import { Slide0 } from './0';
-import { WifiSlide } from './1';
+import { Agenda } from './1';
+import { Setup } from './2';
 
 // Import image preloader util
 import preloader from "spectacle/lib/utils/preloader";
@@ -33,7 +34,6 @@ import theme from "../themes/formidable/index.js";
 // Require CSS
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
-require("../themes/seattlejs/index.css");
 // Best way to include fonts rite
 require("../fonts/worksans.css");
 require("../fonts/biorhyme.css");
@@ -76,15 +76,10 @@ export default class Presentation extends React.Component {
   }
 
   render() {
-    return (
-      <Deck
-        progress="none"
-        theme={theme}
-        transition={["fade"]}
-        transitionDuration={500}
-      >
+    return <Deck progress="none" theme={theme} transition={["fade"]} transitionDuration={500} controls={false}>
         {Slide0}
-        {WifiSlide}
+        {Agenda}
+        {Setup}
         <Slide bgColor="white">
           {this.renderSponsorHeading("Presenting Sponsor")}
           <Image width="90%" src={images.logoFormidable} />
@@ -101,8 +96,6 @@ export default class Presentation extends React.Component {
           {this.renderSponsorHeading("Gold Sponsor")}
           <Image width="50%" src={images.logoImdb} />
         </Slide>
-        {WifiSlide}
-      </Deck>
-    );
+      </Deck>;
   }
 }

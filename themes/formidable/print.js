@@ -24,7 +24,7 @@ export default {
   fonts: fonts,
   global: {
     body: {
-      background: "white",
+      background: "#d7dae8",
       fontFamily: fonts.secondary,
       fontWeight: "normal",
       fontSize: "2em",
