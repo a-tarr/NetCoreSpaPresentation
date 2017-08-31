@@ -207,7 +207,7 @@ export default {
     },
     code: {
       color: "black",
-      fontSize: "2.66rem",
+      fontSize: "28px",
       fontFamily: fonts.monospace,
       margin: "0.25rem auto",
       backgroundColor: "rgba(0,0,0,0.15)",
